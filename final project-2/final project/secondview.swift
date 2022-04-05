@@ -10,10 +10,9 @@ import SwiftUI
 struct secondview: View {
     var major = ["طب بشري","طب اسنان","صيدله","علاج طبيعي","طب بيطري","التمريض","علوم التغذيه"]
     var body: some View {
-        
         ScrollView{
+            Text("اختر تخصص" ).font(.title).bold().frame(height:70)
             VStack{
-                
                 ForEach(major, id: \.self) {index in
                     ScrollView(.horizontal, showsIndicators: false, content: {
                         HStack{
@@ -21,32 +20,22 @@ struct secondview: View {
                                 ZStack{
                                     RoundedRectangle(cornerRadius: 25.0)
                                         .fill(Color.orange)
-                                        .frame(width: 390, height: 150)
+                                        .frame(width: 350, height: 140)
                                         .shadow(radius: 10)
                                     Text(index)
                                 }
                                 NavigationLink(destination: thirdview())
                                 {
                                     Text("apply").font(.title).bold().frame(height: 150)
-                                    
                                 }
-                               
-                                
-                                
-                                
-                                
                             }
                         }
-                        
                     })
                 }
             }
         }
-        
-        
         .padding()
     }
-    
 }
 
 struct secondview_Previews: PreviewProvider {

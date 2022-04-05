@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		367FA93327FBABB3005554B2 /* universityStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367FA93227FBABB3005554B2 /* universityStruct.swift */; };
 		DE55CD1D27F900A000296B38 /* final_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE55CD1C27F900A000296B38 /* final_projectApp.swift */; };
 		DE55CD1F27F900A000296B38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE55CD1E27F900A000296B38 /* ContentView.swift */; };
 		DE55CD2127F900A100296B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE55CD2027F900A100296B38 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		367FA93227FBABB3005554B2 /* universityStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universityStruct.swift; sourceTree = "<group>"; };
 		DE55CD1927F900A000296B38 /* final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE55CD1C27F900A000296B38 /* final_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_projectApp.swift; sourceTree = "<group>"; };
 		DE55CD1E27F900A000296B38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,19 +40,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE36357827FA46D8002E4B43 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		DE55CD1027F900A000296B38 = {
 			isa = PBXGroup;
 			children = (
-				DE629F5127FB898F00887841 /* fourthview.swift */,
-				DE629F4F27FB858200887841 /* thirdview.swift */,
-				DE629F4D27FB841A00887841 /* secondview.swift */,
 				DE55CD1B27F900A000296B38 /* final project */,
 				DE55CD1A27F900A000296B38 /* Products */,
 			);
@@ -67,8 +59,11 @@
 		DE55CD1B27F900A000296B38 /* final project */ = {
 			isa = PBXGroup;
 			children = (
+				367FA93227FBABB3005554B2 /* universityStruct.swift */,
+				DE629F5127FB898F00887841 /* fourthview.swift */,
+				DE629F4F27FB858200887841 /* thirdview.swift */,
+				DE629F4D27FB841A00887841 /* secondview.swift */,
 				DE55CD1C27F900A000296B38 /* final_projectApp.swift */,
-				DE36357827FA46D8002E4B43 /* New Group */,
 				DE55CD1E27F900A000296B38 /* ContentView.swift */,
 				DE55CD2027F900A100296B38 /* Assets.xcassets */,
 				DE55CD2227F900A100296B38 /* Preview Content */,
@@ -154,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				367FA93327FBABB3005554B2 /* universityStruct.swift in Sources */,
 				DE629F5027FB858200887841 /* thirdview.swift in Sources */,
 				DE55CD1F27F900A000296B38 /* ContentView.swift in Sources */,
 				DE55CD1D27F900A000296B38 /* final_projectApp.swift in Sources */,
@@ -215,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -269,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
